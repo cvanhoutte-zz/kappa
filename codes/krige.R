@@ -1,8 +1,11 @@
 ##################################################################################
-# Reads station-specific k0 data from Van Houtte et al. (2018), "A continuous 
+# R code to read station k0 data from Van Houtte et al. (2018), "A continuous 
 # near-surface S-wave attenuation map of New Zealand", Geophysical Journal 
 # International, and calculates the continuous k0 maps using kriging. Please 
 # refer to the article for explanations of 'Model 1' and 'Model 2'
+#
+# Requires R packages {geoR} and {pracma}.
+#
 ##################################################################################
 # Read data:
 # - Coordinates are NZTM northings and eastings, converted to km for convenience.
